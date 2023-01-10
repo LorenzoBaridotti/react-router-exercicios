@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import { MainContainer} from "../style";
 
-function LoginPage() {
+function ErrorPage() {
   return (
     <MainContainer>
       <Header />
@@ -10,4 +10,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default ErrorPage;
