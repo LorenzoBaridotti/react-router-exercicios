@@ -11,7 +11,7 @@ export const goToProfile = (navigate) => {
 }
 
 export const goToError = (navigate) => {
-    navigate("/error")
+    navigate("*")
 }
 
 export const goToProduct = (navigate) => {
