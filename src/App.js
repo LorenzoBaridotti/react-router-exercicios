@@ -1,8 +1,13 @@
+import Router from "./routes/router"
+import { MainContainer } from "./style"
+
+
 function App() {
   return (
-    <>
-      Exercicio de Router
-    </>
+    <MainContainer>
+      <h1>Exercicio de Router</h1>
+      <Router/>
+    </MainContainer>
   );
 }
 
